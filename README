@@ -1,0 +1,19 @@
+ASU ID: 1207648490
+Name: Sai Prashanth C
+
+The application implements the knock sequence requirement,
+uses 2 different tables to store secret and regular messages
+(could have used one table with an isSecret column, but this looked cleaner).
+When the user is in the secret mode, only secret messages are displayed,
+while the regular messages are not. Likewise for regular mode. 
+
+We use sessions and class variables to keep track of the secret status.
+The application is HTML5 conformant and escapes html entities from user input in /message/add.
+It decodes and displays the escaped html entities when /message/list is called.
+Due to choice of freehost, I have only used strpos to compute which url is called.
+URL rewriting is done on server side and the required code is in the .htaccess file.
+
+The extra credit part is with me, and I suppose you asked us to show it 
+to you directly instead of uploading it.
+
+
