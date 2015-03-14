@@ -1,4 +1,4 @@
-ASU ID: 1207648490
+ASU ID: ******8490
 Name: Sai Prashanth C
 
 The application implements the knock sequence requirement,
@@ -13,7 +13,6 @@ It decodes and displays the escaped html entities when /message/list is called.
 Due to choice of freehost, I have only used strpos to compute which url is called.
 URL rewriting is done on server side and the required code is in the .htaccess file.
 
-The extra credit part is with me, and I suppose you asked us to show it 
-to you directly instead of uploading it.
+The extra credit part is with me.
 
 
